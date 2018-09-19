@@ -19,14 +19,7 @@ public class Book {
 
     @Override
     public String toString() {
-//        return "Book{" +
-//                "title='" + title + '\'' +
-//                ", author='" + author + '\'' +
-//                ", originalLanguane='" + originalLanguage + '\'' +
-//                ", firstPublished=" + firstPublished +
-//                ", approximateSales=" + approximateSales +
-//                ", genre='" + genre + '\'' +
-//                '}';
+
         return String.format("Title: %s, Author: %s, Language: %s, First published: %d, Sales[millions]: %d, Genre: %s",
                 title, author, originalLanguage, firstPublished, approximateSales, genre);
     }
